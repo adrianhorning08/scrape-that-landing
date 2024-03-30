@@ -1,7 +1,7 @@
 <!-- Design inspired by https://magicreply.io/ -->
 <html
   lang="en"
-  class="h-full scroll-smooth bg-zinc-800 antialiased dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100"
+  class="h-full scroll-smooth bg-white antialiased dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100"
 >
   <head>
     <meta charset="utf-8" />
@@ -122,7 +122,7 @@
           >
             Scrape Websites, No Coding Required
           </h1>
-          <div class="text-base lg:text-2xl text-zinc-400">
+          <div class="text-base lg:text-2xl text-zinc-500 dark:text-zinc-400">
             Scrape
             <span class="relative whitespace-nowrap text-indigo-600"
               ><svg
@@ -148,7 +148,7 @@
                   Scrape Now
                 </a>
               </div>
-              <p class="text-zinc-400">3 day free trial!!</p>
+              <p class="text-zinc-500 dark:text-zinc-400">3 day free trial!!</p>
             </div>
 
             <!-- Trusted by -->
@@ -325,7 +325,7 @@
               <div class="font-medium text-lg">
                 Enter the URL of the website you want to scrape
               </div>
-              <div class="text-base text-zinc-400">
+              <div class="text-base text-zinc-500 dark:text-zinc-400">
                 Simply paste the URL of the website you want to scrape.
               </div>
             </div>
@@ -333,7 +333,7 @@
               <div class="font-medium text-lg">
                 Name the fields you want to scrape
               </div>
-              <div class="text-base text-zinc-400">
+              <div class="text-base text-zinc-500 dark:text-zinc-400">
                 For example, if you want to scrape blog posts, simply enter the
                 fields "title", "author", "date", and "content". Name them
                 whatever you want!
@@ -341,7 +341,7 @@
             </div>
             <div class="flex flex-col gap-3">
               <div class="font-medium text-lg">Get a CSV</div>
-              <div class="text-base text-zinc-400">
+              <div class="text-base text-zinc-500 dark:text-zinc-400">
                 Wait for the return data and download the CSV file with all the
                 data you scraped.
               </div>
@@ -1006,12 +1006,14 @@
           >
             <div class="flex flex-col gap-2 text-center">
               <div class="flex flex-col gap-2 text-center">
-                <p>Introductory Offer:</p>
+                <p class="text-white">Introductory Offer:</p>
                 <div class="font-bold text-5xl text-white">
                   <span class="line-through">$27</span>
                   <span class="text-green-600">$17</span>
                 </div>
-                <div class="text-gray-400 text-sm">One time</div>
+                <div class="text-zinc-500 dark:text-zinc-400 text-sm">
+                  One time
+                </div>
               </div>
             </div>
             <div class="flex flex-col gap-3 text-white">
@@ -1118,7 +1120,10 @@
               <div>What sites does this work for?</div>
               <div>+</div>
             </div>
-            <div class="text-zinc-400 mt-5 hidden" id="faq-1-answer">
+            <div
+              class="text-zinc-500 dark:text-zinc-400 mt-5 hidden"
+              id="faq-1-answer"
+            >
               It works with most sites, but won't work with sites that require
               logins, or well secured sites. For example, it won't work with
               Facebook or Instagram.
@@ -1135,7 +1140,10 @@
               <div>Is it legal to scrape?</div>
               <div>+</div>
             </div>
-            <div class="text-zinc-400 mt-5 hidden" id="faq-0-answer">
+            <div
+              class="text-zinc-500 dark:text-zinc-400 mt-5 hidden"
+              id="faq-0-answer"
+            >
               Yes. Scraping publicly available data is perfectly legal. We don't
               scrape behind logins.
             </div>
@@ -1149,7 +1157,10 @@
               <div>Does this work with No Code tools like Zapier and Make?</div>
               <div>+</div>
             </div>
-            <div class="text-zinc-400 mt-5 hidden" id="faq-2-answer">
+            <div
+              class="text-zinc-500 dark:text-zinc-400 mt-5 hidden"
+              id="faq-2-answer"
+            >
               Yes! Just make an API call. You do have to be slightly technical
               to set it up. Soon there will be a dedicated integration.
             </div>
@@ -1165,7 +1176,9 @@
         >
           Gather data effortlessly
         </div>
-        <div class="text-base lg:text-lg text-gray-400 max-w-md text-center">
+        <div
+          class="text-base lg:text-lg text-zinc-500 dark:text-zinc-400 max-w-md text-center"
+        >
           Scrape That is the easiest way to scrape data from the web. Get
           started in minutes.
         </div>
@@ -1183,24 +1196,26 @@
       >
         <div class="flex flex-col gap-2">
           <div class="font-medium text-base">Scrape That</div>
-          <div class="text-sm text-gray-400">
+          <div class="text-sm text-zinc-500 dark:text-zinc-400">
             Copyright © <span id="current-year"></span>. All rights reserved.
           </div>
         </div>
         <div class="flex flex-row gap-24">
           <!-- <div class="flex flex-col text-sm gap-4">
             <div class="font-medium">Resources</div>
-            <a class="text-gray-400 cursor-pointer" href="/privacy-policy"
+            <a class="text-zinc-500 dark:text-zinc-400 cursor-pointer" href="/privacy-policy"
               >Privacy Policy</a
-            ><a class="text-gray-400 cursor-pointer" href="/terms"
+            ><a class="text-zinc-500 dark:text-zinc-400 cursor-pointer" href="/terms"
               >Terms and Conditions</a
             >
           </div> -->
           <div class="flex flex-col text-sm gap-4">
             <div class="font-medium">Contact</div>
-            <p class="text-gray-400 cursor-pointer">adrian@thewebscrapingguy</p>
+            <p class="text-zinc-500 dark:text-zinc-400 cursor-pointer">
+              adrian@thewebscrapingguy
+            </p>
             <a
-              class="text-gray-400 cursor-pointer"
+              class="text-zinc-500 dark:text-zinc-400 cursor-pointer"
               href="https://twitter.com/adrian_horning_"
               >Twitter</a
             >
